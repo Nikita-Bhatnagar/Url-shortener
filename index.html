@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <div class="brand-name">Shortly</div>
+          <div class="toggle-btn hide"><i class="fas fa-bars"></i></div>
+          <div class="nav-items">
+            <ul class="list-1">
+              <li class="nav-item">Features</li>
+              <li class="nav-item">Pricing</li>
+              <li class="nav-item">Resources</li>
+            </ul>
+            <ul class="list-2">
+              <li class="nav-item">Login</li>
+              <li class="nav-item sign-up-btn">Sign Up</li>
+            </ul>
+          </div>
+        </div>
+        <div class="vertical-nav hide-display">
+          <p>Features</p>
+          <p>Pricing</p>
+          <p>Resources</p>
+          <hr />
+          <p>Login</p>
+          <button class="sign-up-btn">Sign Up</button>
+        </div>
+        <div class="hero-section">
+          <div class="col-1">
+            <h1>More than just shorter links</h1>
+            <p>
+              Build your brand's recognition and get detailed insights on how
+              your links are performing.
+            </p>
+            <button class="get-started-btn" type="button">Get Started</button>
+          </div>
+          <div class="col-2">
+            <img src="images/illustration-working.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <section class="link-shortening">
+        <div class="input">
+          <div>
+            <input
+              type="url"
+              placeholder="Shorten a link here..."
+              class="url-input"
+            />
+          </div>
+
+          <button class="shorten-url-btn" type="button">Shorten it!</button>
+        </div>
+      </section>
+
+      <section class="statistics">
+        <div class="results"></div>
+        <h2>Advanced Statistics</h2>
+        <p>
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+        <div class="stat-row">
+          <div class="stat-card card-1">
+            <div class="icon">
+              <img
+                src="images/icon-brand-recognition.svg"
+                alt="brand-recognition-icon"
+              />
+            </div>
+            <h4>Brand Recognition</h4>
+            <p>
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="stat-card card-2">
+            <div class="icon">
+              <img
+                src="images/icon-detailed-records.svg"
+                alt="detailed-records-icon"
+              />
+            </div>
+            <h4>Detailed Records</h4>
+            <div class="line-start"></div>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+            <div class="line-end"></div>
+          </div>
+          <div class="stat-card card-3">
+            <div class="icon">
+              <img
+                src="images/icon-fully-customizable.svg"
+                alt="fully-customizable-icon"
+              />
+            </div>
+            <h4>Fully Customizable</h4>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="get-started">
+        <div class="bg">
+          <h3>Boost your links today</h3>
+          <button class="get-started-btn" type="button">Get Started</button>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer-row">
+          <div class="column-1 column">
+            <h1>Shortly</h1>
+          </div>
+          <div class="column-2 column">
+            <div class="col-heading">Features</div>
+            <p>Link Shortening</p>
+            <p>Branded Links</p>
+            <p>Analytics</p>
+          </div>
+          <div class="column-3 column">
+            <div class="col-heading">Resources</div>
+            <p>Blog</p>
+            <p>Developers</p>
+            <p>Support</p>
+          </div>
+          <div class="column-4 column">
+            <div class="col-heading">Company</div>
+            <p>About</p>
+            <p>Our Team</p>
+            <p>Careers</p>
+            <p>Contact</p>
+          </div>
+          <div class="column-5 column">
+            <div class="icon-row">
+              <img src="images/icon-facebook.svg" alt="" class="icon" />
+              <img src="images/icon-twitter.svg" alt="" class="icon" />
+              <img src="images/icon-pinterest.svg" alt="" class="icon" />
+              <img src="images/icon-instagram.svg" alt="" class="icon" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
